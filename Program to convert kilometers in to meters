@@ -1,0 +1,13 @@
+// W.A.P. to convert kilometers in to meters.
+import java.util.Scanner;  
+public class Main  
+{  
+public static void main(String args[])  
+{  float km,metres;
+          Scanner sc=new Scanner(System.in);
+          System.out.println("Enter the value in Kilo Meters:");
+          km=sc.nextFloat();
+          metres=km*1000;
+          System.out.printf("The value in Meters:\n%.0f",metres);
+      }
+}
