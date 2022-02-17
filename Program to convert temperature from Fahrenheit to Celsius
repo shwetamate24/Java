@@ -1,0 +1,17 @@
+//W.A.P. to convert temperature from Fahrenheit to Celsius using the formula.
+//c = ( f - 32 ) * 5/9 //
+import java.util.Scanner;  
+public class Main  
+{  
+public static void main(String args[])  
+{  
+float c, f ;  
+Scanner sc = new Scanner(System.in);  
+System.out.print("Enter the temperature in Fahrenheit: ");  
+f = sc.nextFloat();
+c = ( f - 32 ) * 5/9;
+   System.out.printf("Temperature in Celsius\n%f",c);
+}
+}
+
+
