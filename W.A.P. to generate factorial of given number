@@ -1,0 +1,16 @@
+//W.A.P. to generate factorial of given number java
+import java.util.Scanner;
+class Main 
+{  
+ public static void main(String args[])
+ {  
+  int i,number, fact=1;  
+  Scanner s = new Scanner(System.in);
+  System.out.println("Enter a number to find factorial:");
+   number = s.nextInt();
+  for(i=1;i<=number;i++){    
+      fact=fact*i;    
+  }    
+  System.out.println("Factorial of "+number+" is: "+fact);    
+ }  
+}  
