@@ -1,0 +1,44 @@
+import java.util.Scanner;
+public class ascending {
+    public static void main(String[]args) {
+        Scanner eren = new Scanner(System.in);
+        int l;
+        int m;
+        int n;
+
+        System.out.println("Enter 3 Numbers");
+        l = eren.nextInt();
+        m = eren.nextInt();
+        n = eren.nextInt();
+
+        if(l>m && l>n) { 
+        System.out.println(l + " is The Greatest Number"); {if(m>n){
+            System.out.println( "Asc order " + n +" "+ m + " "+ l);
+
+        }else {
+            System.out.println("Asc order " + m +" "+ " "+n+" "+ l);
+
+        }} 
+        }else if (m>l && m>n) {
+            System.out.println(m + " is The Greatest Number");
+          {if(l>n) {
+            System.out.println("Asc order " + n + " " +  l + " " +  m);
+
+          }else {
+            System.out.println("Asc order " + l + " "+ n + " " +  m);
+
+          }
+        }
+        }else {
+            System.out.println( n + " is The Greatest Number");
+         {if(l>m){
+            System.out.println("Asc order " + m + " " + l + " " +  n);
+
+         }else{
+            System.out.println("Asc order " + l + " " + m + " " +  n);
+
+         }}
+        }
+
+    }
+}
